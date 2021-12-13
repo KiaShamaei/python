@@ -91,17 +91,26 @@
 # print("odd is :  {} even is: {}".format (odd , even))
 
 ## write fibionachi code
-def fib(n):
-    a=0
-    b=1
-    if(n==1):
-        print(a)
-    else:
-        print(a)
-        print(b)
-        for i in range(2,n):
-            c= a+b
-            a = b
-            b = c
-            print(c)
-fib(4)
+# def fib(n):
+#     a=0
+#     b=1
+#     if(n==1):
+#         print(a)
+#     else:
+#         print(a)
+#         print(b)
+#         for i in range(2,n):
+#             c= a+b
+#             a = b
+#             b = c
+#             print(c)
+# fib(4)
+#################################
+# class Comouter : 
+#     def __init__(self):
+#         self.name = "Navin"
+#         self.age = 30
+#     def update(self, newAge):
+#         self.age = newAge
+# c1 = Comouter()
+# print(id(c1))
