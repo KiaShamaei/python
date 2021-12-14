@@ -114,3 +114,23 @@
 #         self.age = newAge
 # c1 = Comouter()
 # print(id(c1))
+
+
+class Student :
+    def __init__(self , name , number ):
+        self.name = name
+        self.number = number
+        self.com = self.Com("hp","42")
+    def show(self):
+        print(self.name , self.number)
+        self.com.showC()
+    class Com :
+        def __init__(self , name , model):
+            self.name = name 
+            self.model = model
+        def showC(self):
+            print(self.name , self.model)
+
+
+s1 = Student("kia" , "23")
+s1.show()
