@@ -116,21 +116,55 @@
 # print(id(c1))
 
 
-class Student :
-    def __init__(self , name , number ):
-        self.name = name
-        self.number = number
-        self.com = self.Com("hp","42")
-    def show(self):
-        print(self.name , self.number)
-        self.com.showC()
-    class Com :
-        def __init__(self , name , model):
-            self.name = name 
-            self.model = model
-        def showC(self):
-            print(self.name , self.model)
+# class Student :
+#     def __init__(self , name , number ):
+#         self.name = name
+#         self.number = number
+#         self.com = self.Com("hp","42")
+#     def show(self):
+#         print(self.name , self.number)
+#         self.com.showC()
+#     class Com :
+#         def __init__(self , name , model):
+#             self.name = name 
+#             self.model = model
+#         def showC(self):
+#             print(self.name , self.model)
 
 
-s1 = Student("kia" , "23")
-s1.show()
+# s1 = Student("kia" , "23")
+# s1.show()
+######################CLASS Inheritance ################
+
+# class Parent : 
+#     def __init__(self):
+#         print("parent is call")
+
+
+
+# class Child(Parent):
+#     def __init__(self , name):
+#         super().__init__()
+#         self.name = name 
+#         print("Child is call" + self.name)
+
+
+# c1 = Child( "kia")
+
+#########################class polymorphism #############
+# class Myeditor : 
+#     def excute(self):
+#         print("editor A ")
+# class MyeditorB : 
+#     def excute(self):
+#         print("editor B")
+# class Labtop :
+#     def code(self , ide):
+#         ide.excute()
+
+# labtop = Labtop()
+# ide = MyeditorB()
+# ideA = Myeditor()
+# labtop.code(ide)
+# labtop.code(ideA)
+#####################################
