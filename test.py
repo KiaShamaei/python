@@ -60,7 +60,7 @@
 #     return a + b
 # result = add(10,12)
 # print(result)
-#define function with name parameter
+#----------------------define function with name parameter
 # def person(name , age):
 #     print(name)
 #     print(age - 3)
