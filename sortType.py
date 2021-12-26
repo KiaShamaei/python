@@ -8,7 +8,17 @@ def sort (nums):
                 temp = nums[j]
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
+def sortSelect (nums):
+    for i in range(len(nums)):
+        minpos= i
+        for j in range(i, len(nums)):
+            if nums[j] < nums[minpos]:
+                minpos = j
+        temp = nums[i]
+        nums[i] = nums[minpos]
+        nums[minpos]= temp 
+        print(nums)
 
-
-sort(nums)
-print(nums)
+# sort(nums)
+# print(nums)
+sortSelect(nums)
