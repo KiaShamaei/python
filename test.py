@@ -1,7 +1,10 @@
-# print ("hello world")
+print ("hello world")
 # print("this is ready ") 
 # num = 5
 # type(num)
+#######################################
+# x = eval(input("enter a experssion : "))
+# print(x)
 #######################################
 # input math to python
 # import math
@@ -13,9 +16,7 @@
 # print (type(x))
 # z = int(x) + int(y) 
 # print(z)
-#######################################
-# x = eval(input("enter a experssion : "))
-# print(x)
+
 #####################enter arg from call in terminal #
 # import sys
 # x = int (sys.argv[1])
